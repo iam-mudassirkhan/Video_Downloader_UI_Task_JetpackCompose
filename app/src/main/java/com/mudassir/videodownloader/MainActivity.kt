@@ -10,6 +10,7 @@ import androidx.navigation.compose.rememberNavController
 import com.mudassir.videodownloader.ui.home.HomeScreen
 import com.mudassir.videodownloader.ui.theme.VideoDownloaderTheme
 import com.mudassir.videodownloader.ui.trimmer.TrimmerScreen
+import com.mudassir.videodownloader.utills.AppUtills
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +19,7 @@ class MainActivity : ComponentActivity() {
         setContent {
 
             VideoDownloaderTheme {
+
 
                 val navController = rememberNavController()
 
