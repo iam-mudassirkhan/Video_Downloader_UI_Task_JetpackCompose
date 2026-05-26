@@ -1,4 +1,4 @@
-# 🎵 Audio Trimmer – Android Assignment
+# Audio Trimmer – Android Assignment
 
 A modern audio trimming application built using **Jetpack Compose** with a clean architecture approach. Users can import audio files, visualize waveform data, preview playback, trim audio segments, and save trimmed output directly to device storage.
 
@@ -6,26 +6,26 @@ Designed with performance, scalability, and maintainability in mind.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎵 Pick audio from device storage
-- 📊 Real waveform visualization
-- ▶️ Audio playback preview
-- ✂️ Trim audio using draggable handles
-- 🔁 Trim Side mode
-- 🎯 Middle trim support structure
-- 💾 Save trimmed audio into public device storage
-- 📱 Modern Jetpack Compose UI
-- ⚡ Smooth state handling
-- 🔄 Undo / Redo support
-- 🎚 Zoom controls
-- 📂 Runtime permission handling
-- 🌊 Waveform loading skeleton
-- 📣 Snackbar feedback system
+ Pick audio from device storage
+ Real waveform visualization
+ Audio playback preview
+-  Trim audio using draggable handles
+-  Trim Side mode
+-  Middle trim support structure
+-  Save trimmed audio into public device storage
+-  Modern Jetpack Compose UI
+-  Smooth state handling
+-  Undo / Redo support
+-  Zoom controls
+-  Runtime permission handling
+-  Waveform loading skeleton
+-  Snackbar feedback system
 
 ---
 
-## 📸 UI Preview
+##  UI Preview
 
 <p align="center">
 
@@ -37,7 +37,7 @@ Designed with performance, scalability, and maintainability in mind.
 
 ---
 
-# 🏗 Architecture
+#  Architecture
 
 Project follows separation of concerns:
 
@@ -59,7 +59,7 @@ The business logic is isolated from UI to improve readability and maintainabilit
 
 ---
 
-# 🚀 Technologies Used
+#  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -77,7 +77,7 @@ The business logic is isolated from UI to improve readability and maintainabilit
 
 ---
 
-# 🎯 Why Media3 Transformer?
+#  Why Media3 Transformer?
 
 Google recommends Media3 as the modern media framework.
 
@@ -106,7 +106,7 @@ endPositionMs
 
 ---
 
-# 🧠 Why ViewModel?
+#  Why ViewModel?
 
 ViewModel was intentionally used because:
 
@@ -138,7 +138,7 @@ This keeps UI lightweight.
 
 ---
 
-# 🎵 AudioTrimmerManager Responsibilities
+#  AudioTrimmerManager Responsibilities
 
 The AudioTrimmerManager acts as a single source for audio operations.
 
@@ -154,7 +154,7 @@ Keeping media logic outside UI follows clean architecture principles.
 
 ---
 
-# 🎨 UI Approach
+#  UI Approach
 
 UI built entirely with:
 
@@ -172,7 +172,7 @@ Features:
 
 ---
 
-# 📦 Optimization Decisions
+#  Optimization Decisions
 
 Several optimizations were used:
 
@@ -201,7 +201,7 @@ Benefits:
 
 ---
 
-# 🧹 Clean Code Practices Followed
+#  Clean Code Practices Followed
 
 ✔ Separation of concerns
 
@@ -227,7 +227,7 @@ Benefits:
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 Potential enhancements:
 
@@ -245,7 +245,7 @@ Potential enhancements:
 
 ---
 
-# ⚙️ Setup
+#  Setup
 
 Clone repository:
 
@@ -263,7 +263,7 @@ Run App
 
 ---
 
-# 👨‍💻 Developed By
+#  Developed By
 
 Mudassir Khan
 
